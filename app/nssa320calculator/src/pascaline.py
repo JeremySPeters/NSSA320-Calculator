@@ -9,7 +9,7 @@ def add(x: int, y: int) -> int:
     Returns:
         int: result
     """
-    return x + y
+    return int(x + y)
 
 
 def subtract(x: int, y: int) -> int:
@@ -22,7 +22,7 @@ def subtract(x: int, y: int) -> int:
     Returns:
         int: result
     """
-    return x - y
+    return int(x - y)
 
 
 def divide(x: int, y: int) -> int:
@@ -35,7 +35,7 @@ def divide(x: int, y: int) -> int:
     Returns:
         int: result
     """
-    return x / y
+    return int(x / y)
 
 
 def multiply(x: int, y: int) -> int:
@@ -48,4 +48,4 @@ def multiply(x: int, y: int) -> int:
     Returns:
         int: result
     """
-    return x * y
+    return int(x * y)
